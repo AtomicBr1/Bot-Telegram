@@ -295,21 +295,21 @@ def main(bot):
     def commandsbob(message):
 
         for processo in psutil.process_iter(['name']):
-            if processo.info['name'] == 'Iniciar.exe':
+            if processo.info['name'] == 'main.exe':
                 # Encerrar o processo
                 processo.kill()
                 for processo in psutil.process_iter(['name']):
-                    if processo.info['name'] == 'Iniciar.exe':
+                    if processo.info['name'] == 'main.exe':
                         # Encerrar o processo
                         processo.kill()
                         for processo in psutil.process_iter(['name']):
-                            if processo.info['name'] == 'Iniciar.exe':
+                            if processo.info['name'] == 'main.exe':
                                 # Encerrar o processo
                                 processo.kill()
                                 break
         
         # Caminho para o arquivo .exe
-        caminho_arquivo = 'C:/Users/TIBA0036/Desktop/BOB/Iniciar.exe'
+        caminho_arquivo = 'C:/Users/TIBA0036/Desktop/BOB/dist/main.exe'
 
         # Comando para abrir em tela cheia no Windows
         comando = f'start /max {caminho_arquivo}'
