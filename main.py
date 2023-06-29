@@ -13,57 +13,114 @@ from httpx import ConnectTimeout as HTTPXConnectTimeout
 
 bot = telebot.TeleBot('5958478560:AAF-8gKrVZB67PZsBLvQvcGj4ozqs5SJKag')
 
+
+print(
+"""
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                        8888888888888888    8888888888888    88             8888888888888
+                                        8888888888888888    88               88             88
+                                             \888/          88               88             88
+                                              888           888888888        88             888888888
+                                              888           88               88             88
+                                              888           88               88             88
+                                              888           8888888888888    88888888888    8888888888888  
+
+                                                    88888888ba     ,ad8888ba,    88888888ba
+                                                    88      "8b   d8"'    `"8b   88      "8b
+                                                    88      ,8P  d8'        `8b  88      ,8P
+                                                    88aaaaaa8P'  88          88  88aaaaaa8P'
+                                                    88aaaaaa8b,  88          88  88aaaaaa8b,
+                                                    88      `8b  Y8,        ,8P  88      `8bP
+                                                    88      a8P   Y8a.    .a8P   88      a8P
+                                                    88888888P"     `"Y8888Y"'    88888888P"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+""")
+
 def main(bot):
     def attcookiegpm(message):
         for processo in psutil.process_iter(['name']):
             if processo.info['name'] == 'msedge.exe':
                 # Encerrar o processo
                 processo.kill()
-                for processo in psutil.process_iter(['name']):
-                    if processo.info['name'] == 'msedge.exe':
-                        # Encerrar o processo
-                        processo.kill()
-                        for processo in psutil.process_iter(['name']):
-                            if processo.info['name'] == 'msedge.exe':
-                                # Encerrar o processo
-                                processo.kill()
-                                for processo in psutil.process_iter(['name']):
-                                    if processo.info['name'] == 'msedge.exe':
-                                        # Encerrar o processo
-                                        processo.kill()
-                                        for processo in psutil.process_iter(['name']):
-                                            if processo.info['name'] == 'msedge.exe':
-                                                # Encerrar o processo
-                                                processo.kill()
-                                                for processo in psutil.process_iter(['name']):
-                                                    if processo.info['name'] == 'msedge.exe':
-                                                        # Encerrar o processo
-                                                        processo.kill()
-                                                        for processo in psutil.process_iter(['name']):
-                                                            if processo.info['name'] == 'msedge.exe':
-                                                                # Encerrar o processo
-                                                                processo.kill()
-                                                                for processo in psutil.process_iter(['name']):
-                                                                    if processo.info['name'] == 'msedge.exe':
-                                                                        # Encerrar o processo
-                                                                        processo.kill()
-                                                                        for processo in psutil.process_iter(['name']):
-                                                                            if processo.info['name'] == 'msedge.exe':
-                                                                                # Encerrar o processo
-                                                                                processo.kill()
-                                                                                for processo in psutil.process_iter(['name']):
-                                                                                    if processo.info['name'] == 'msedge.exe':
-                                                                                        # Encerrar o processo
-                                                                                        processo.kill()
-                                                                                        for processo in psutil.process_iter(['name']):
-                                                                                            if processo.info['name'] == 'msedge.exe':
-                                                                                                # Encerrar o processo
-                                                                                                processo.kill()
-                                                                                                for processo in psutil.process_iter(['name']):
-                                                                                                    if processo.info['name'] == 'msedge.exe':
-                                                                                                        # Encerrar o processo
-                                                                                                        processo.kill()
-                                                                                                        break
+            else:
+                print('Não foi achado o processo!')
+
+        for processo in psutil.process_iter(['name']):
+            if processo.info['name'] == 'msedge.exe':
+                # Encerrar o processo
+                processo.kill()
+            else:
+                print('Não foi achado o processo!')                
+
+        for processo in psutil.process_iter(['name']):
+            if processo.info['name'] == 'msedge.exe':
+                # Encerrar o processo
+                processo.kill()
+            else:
+                print('Não foi achado o processo!')
+
+        for processo in psutil.process_iter(['name']):
+            if processo.info['name'] == 'msedge.exe':
+                # Encerrar o processo
+                processo.kill()
+            else:
+                print('Não foi achado o processo!')
+
+        for processo in psutil.process_iter(['name']):
+            if processo.info['name'] == 'msedge.exe':
+                # Encerrar o processo
+                processo.kill()
+            else:
+                print('Não foi achado o processo!')
+
+        for processo in psutil.process_iter(['name']):
+            if processo.info['name'] == 'msedge.exe':
+                # Encerrar o processo
+                processo.kill()
+            else:
+                print('Não foi achado o processo!')
+
+        for processo in psutil.process_iter(['name']):
+            if processo.info['name'] == 'msedge.exe':
+                # Encerrar o processo
+                processo.kill()
+            else:
+                print('Não foi achado o processo!')
+
+        for processo in psutil.process_iter(['name']):
+            if processo.info['name'] == 'msedge.exe':
+                # Encerrar o processo
+                processo.kill()
+            else:
+                print('Não foi achado o processo!')
+
+        for processo in psutil.process_iter(['name']):
+            if processo.info['name'] == 'msedge.exe':
+                # Encerrar o processo
+                processo.kill()
+            else:
+                print('Não foi achado o processo!')
+
+        for processo in psutil.process_iter(['name']):
+            if processo.info['name'] == 'msedge.exe':
+                # Encerrar o processo
+                processo.kill()
+            else:
+                print('Não foi achado o processo!')
+
+        for processo in psutil.process_iter(['name']):
+            if processo.info['name'] == 'msedge.exe':
+                # Encerrar o processo
+                processo.kill()
+            else:
+                print('Não foi achado o processo!')
+
+        for processo in psutil.process_iter(['name']):
+            if processo.info['name'] == 'msedge.exe':
+                # Encerrar o processo
+                processo.kill()
+            else:
+                print('Não foi achado o processo!')
 
 
         # Inicializar o driver do Selenium para o navegador padrão
@@ -287,7 +344,15 @@ def main(bot):
         pyautogui.press('enter')
         pass
 
-    
+    def attsi(message):
+        pyautogui.moveTo(97, 919)
+        time.sleep(2)
+        pyautogui.click()
+
+        pyautogui.write('attsi')
+        pyautogui.press('enter')
+        pass
+
     def enviarcookiegpm(text):
         print(text)
         pass
@@ -298,15 +363,22 @@ def main(bot):
             if processo.info['name'] == 'main.exe':
                 # Encerrar o processo
                 processo.kill()
-                for processo in psutil.process_iter(['name']):
-                    if processo.info['name'] == 'main.exe':
-                        # Encerrar o processo
-                        processo.kill()
-                        for processo in psutil.process_iter(['name']):
-                            if processo.info['name'] == 'main.exe':
-                                # Encerrar o processo
-                                processo.kill()
-                                break
+            else:
+                print('Não foi achado o processo!')
+
+        for processo in psutil.process_iter(['name']):
+            if processo.info['name'] == 'main.exe':
+                # Encerrar o processo
+                processo.kill()
+            else:
+                print('Não foi achado o processo!')
+
+        for processo in psutil.process_iter(['name']):
+            if processo.info['name'] == 'main.exe':
+                # Encerrar o processo
+                processo.kill()
+            else:
+                print('Não foi achado o processo!')
         
         # Caminho para o arquivo .exe
         caminho_arquivo = 'C:/Users/TIBA0036/Desktop/BOB/dist/main.exe'
@@ -365,7 +437,7 @@ def main(bot):
         item6 = telebot.types.InlineKeyboardButton('PRODUÇÃO DB', callback_data='btn6')
         item7 = telebot.types.InlineKeyboardButton('V5', callback_data='btn7')
         item8 = telebot.types.InlineKeyboardButton('AVANÇO GPM', callback_data='btn8')
-        item10 = telebot.types.InlineKeyboardButton('COOKIE GPM', callback_data='btn20')
+        item10 = telebot.types.InlineKeyboardButton('Atualizar SI', callback_data='btn22')
         item11 = telebot.types.InlineKeyboardButton('Abrir GPM Cookies', callback_data='btn21')
         item9 = telebot.types.InlineKeyboardButton('INICIAR BOB', callback_data='btn9')
         markup.add(item1, item2, item3, item4, item5, item6, item7, item8, item10, item11, item9)
@@ -460,6 +532,9 @@ def main(bot):
             
         elif call.data == 'btn21':
             attcookiegpm(call.message)
+        
+        elif call.data =='btn22':
+            attsi(call.message)
 
     bot.polling()
 
