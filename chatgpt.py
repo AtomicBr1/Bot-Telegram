@@ -1,7 +1,7 @@
 import openai
 
 # Initialize the API key
-openai.api_key = "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"
+openai.api_key = "YOUR_TOKEN"
 
 def gerar_resposta(messages):
     response = openai.ChatCompletion.create(
