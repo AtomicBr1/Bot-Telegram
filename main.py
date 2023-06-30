@@ -11,7 +11,7 @@ import webbrowser
 from httpcore import ConnectTimeout
 from httpx import ConnectTimeout as HTTPXConnectTimeout
 
-bot = telebot.TeleBot('5958478560:AAF-8gKrVZB67PZsBLvQvcGj4ozqs5SJKag')
+bot = telebot.TeleBot('YOUR_TOKEN')
 
 
 print(
